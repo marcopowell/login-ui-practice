@@ -11,17 +11,26 @@
     <p>Sign in to your account</p>
     
     <div class="container">
+        <!-- LOGIN FORM-->
         <h2>Login</h2>
-        <form class="login-form" action="/action_page.php">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" value="Marco Powell"><br>
-            <label for="password">Password:</label>
-            <input type="text" id="password" name="password" value="marcopowell@BVT.com"><br><br>
-            <input class="btn" type="submit" value="Submit">
-          </form> 
-          <br>
-          <a id="registration" href="#">Register for an account</a>
-
+        <div>
+            <form class="login-form" action="/action_page.php">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" value="Marco Powell" placeholder=""><br>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" value="marcopowell@BVT.com" placeholder=""><br><br>
+            </form>
+        </div>
+        <!-- BUTTON --> 
+        <div class="button-container">
+            <button class="btn" type="button">Login</button>
+        </div>
+        <br>
+        <!-- LINKS -->
+        <div id="links">
+          <a class="links-app" href="#">Forgot password?</a>
+          <a class="links-app" href="#">Register for an account</a>
+        </div>
     </div>
 </body>
 </html>
